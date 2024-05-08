@@ -1,7 +1,7 @@
 @charset "UTF-8";
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 html, body{
     height: 100vh;
@@ -9,7 +9,7 @@ html, body{
     background-color: black;
 }
 body{
-    background: url(../pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url('../pacote-d013/imagens/fundo-geometrico-escuro-com-espaco-de-copia.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -33,4 +33,22 @@ iframe#tela{
     left: 21px;
     width: 268px;
     height: 471px;
+}
+section#redes img{
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.158);
+    box-sizing: border-box;
+
+}
+section#redes{
+    text-align: right;
+
+}
+section#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.733);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .4s, border .2s 
 }

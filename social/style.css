@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+img{
+    width: 100vw;
+
+}
+a{
+    display: block;
+    background-color: rgb(160, 95, 95); 
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    border: 2px solid rgba(255, 255, 255, 0.733);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .4s, border .2s 
+}
